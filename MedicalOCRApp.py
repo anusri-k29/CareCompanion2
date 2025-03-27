@@ -1,6 +1,6 @@
-!sudo apt install tesseract-ocr
-!pip install pytesseract
-!pip install sentencepiece
+sudo apt install tesseract-ocr
+pip install pytesseract
+pip install sentencepiece
 
 import cv2
 import pytesseract
