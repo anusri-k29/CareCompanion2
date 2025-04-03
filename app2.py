@@ -5,8 +5,8 @@ import zipfile
 import requests
 from pathlib import Path
 from MedicalKeywordExtractor import MedicalKeywordProcessor
-from functions.OCRExtraction import extract_text_from_image  # From FINAL CODE
-from functions.MedicalDataExtraction import extract_medical_data  # From FINAL CODE
+from OCRExtraction import extract_text_from_image  # From FINAL CODE
+from MedicalDataExtraction import extract_medical_data  # From FINAL CODE
 
 # 🚀 Set page configuration
 st.set_page_config(page_title="Care Companion", page_icon="💙", layout="wide")
