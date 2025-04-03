@@ -5,7 +5,7 @@ import zipfile
 import requests
 from pathlib import Path
 from MedicalKeywordExtractor import MedicalKeywordProcessor
-from OCRExtraction import extract_text_from_image  # From FINAL CODE
+from MedicalOCRApp import extract_text_from_image  # From FINAL CODE
 from MedicalDataExtraction import extract_medical_data  # From FINAL CODE
 
 # 🚀 Set page configuration
