@@ -5,3 +5,4 @@ numpy
 Pillow
 spacy
 scikit-learn
+opencv-python-headless
