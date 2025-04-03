@@ -4,7 +4,7 @@ from io import BytesIO
 import zipfile
 import requests
 from pathlib import Path
-from functions.KeywordExtraction import MedicalKeywordExtractor
+from functions.MedicalKeywordExtractor import MedicalKeywordProcessor
 from functions.OCRExtraction import extract_text_from_image  # From FINAL CODE
 from functions.MedicalDataExtraction import extract_medical_data  # From FINAL CODE
 
