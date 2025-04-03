@@ -6,7 +6,7 @@ import requests
 from pathlib import Path
 from MedicalKeywordExtractor import MedicalKeywordProcessor
 from MedicalOCRApp import run_medical_ocr  # Correct function
-from MedicalDataExtraction import extract_medical_data  # From FINAL CODE
+
 
 # 🚀 Set page configuration
 st.set_page_config(page_title="Care Companion", page_icon="💙", layout="wide")
