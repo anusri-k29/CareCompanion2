@@ -13,7 +13,7 @@ def login_page():
         if username == "admin" and password == "password":  # Replace with real authentication
             st.session_state["logged_in"] = True
             st.success("✅ Login successful! Redirecting...")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("❌ Invalid username or password")
 
