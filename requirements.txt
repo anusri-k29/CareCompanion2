@@ -3,4 +3,4 @@ pytesseract
 streamlit
 numpy
 Pillow
-
+spacy
