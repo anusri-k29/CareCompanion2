@@ -5,7 +5,7 @@ import zipfile
 import requests
 from pathlib import Path
 from MedicalKeywordExtractor import MedicalKeywordProcessor
-from MedicalOCRApp import extract_text_from_image  # From FINAL CODE
+from MedicalOCRApp import run_medical_ocr  # Correct function
 from MedicalDataExtraction import extract_medical_data  # From FINAL CODE
 
 # 🚀 Set page configuration
@@ -47,7 +47,7 @@ elif page == "OCR & Unstructured to Structured 🔄":
         
         if st.button("Extract Text & Structure Data"):
             with st.spinner("Processing document..."):
-                extracted_text = extract_text_from_image(uploaded_file)
+                extracted_text = run_medical_ocr(uploaded_file)
                 structured_data = extract_medical_data(extracted_text)
             
             st.success("✅ Text Extracted Successfully!")
